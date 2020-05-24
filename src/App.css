@@ -1,0 +1,298 @@
+ Nav
+body{
+  
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  background-color: #D95970;
+  padding-bottom: 60px;
+  
+}
+
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar ul li{
+  list-style: none;
+  padding: 10px 30px 10px 30px;
+ 
+   text-transform: uppercase;
+    
+}
+
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.5rem;
+}
+
+ .navbar ul li a:hover{
+   text-decoration: underline;
+   
+ }
+
+ 
+ @media screen and (max-width: 400px) {
+  .navbar ul{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .navbar ul li a {
+    color: black;
+    background-color: yellow ;
+  }
+ }
+
+ /*Body code*/
+
+ /* .imageProfil{
+   height: 250px;
+   width: 400px;
+ }
+ .bodyCode{
+   font-family:  'Playfair Display', serif;
+   font-size: 0.6rem;
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+ }
+
+
+.bodyCode p {
+  font-size: 1rem; 
+} 
+*/
+
+
+
+/*Forms*/
+  form{
+  font-family: 'Playfair Display', serif;
+   font-size: 1rem;
+   margin-top: 50px;
+   border: 0.5px solid #D95970;
+   padding-left: 0px;
+ }
+
+form .form-control{
+  font-size: 0.8rem;
+}
+
+.formulair{
+  margin: 50px 120px;
+}
+
+
+.form-items{
+
+  padding: 10px 10px 8px 10px;
+ 
+  clear: left;
+background: #fff;
+}
+
+ 
+ .form-control{
+  color: #878787;
+}
+
+
+.button{
+  background-color: #D9486E;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  font-size: 0.8rem;
+ text-align: center;
+ display: block;
+  margin : auto;
+} 
+
+
+
+ /*Profiles*/
+
+ .contenu{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  margin: 50px 100px;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 16, 16);
+ color: white;
+  padding: 20px;
+  margin: 120px;
+  
+}
+.image{
+  flex: 1;
+
+  display: flex;
+  width: 100px;
+  height: 300px;
+
+}
+
+.name{
+  color: #DA0033;
+}
+.profilLisst{
+  flex: 2;
+}
+.profilLisst li {
+  list-style: none;
+  padding: 10px;
+}
+.fa-envelope{
+  color: green;
+  padding-right: 8px;
+}
+
+.fa-user-edit{
+  
+  color: darkgreen;
+}
+
+.fa-trash{
+  
+  color: #DA0033;
+}
+
+
+
+@media screen and (max-width: 594px) {
+  .contenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image{
+    
+  
+    display: flex;
+    width: 200px;
+    border-radius: 250px;
+  }
+  .profilLisst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #edc9c9;
+    padding-left: 0px;
+
+  }
+   
+}
+
+
+@media screen and (max-width: 400px) {
+   .image{
+    
+    height: 100px;
+    width: 100px;
+  
+    display: flex;
+    
+    
+    
+  }
+} 
+
+
+ /*Function*/
+
+  .greeting{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   font-size: 1rem;
+   color: darkgreen;
+
+ } */
+
+ /*Main*/
+
+  .text-center{
+   text-align: center;
+ }
+
+ .titre{
+   text-align: center;
+ }
+ .main{
+ height: 100%;
+  margin: 60px 40px ;
+ } 
+
+
+ .formulaire{
+ 
+ 
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center; 
+  }
+  
+
+
+  .usersAdded{
+   text-align: center;
+   color: red;
+ } 
+ /*Forms*/
+
+
+  form{
+   
+  
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    
+
+ } 
+
+ .row{
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+    border-bottom: 1px solid #cecece;
+  }
+  .forms{
+    background-color: rgb(51, 20, 20);
+   margin: 50px 450px;
+    
+ } 
+ /*Footer*/
+
+  .footer{
+  background-color: #D95970;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 0.9rem;  
+   padding: 30px 20px 30px 20px;
+  
+ } 
